@@ -1,10 +1,11 @@
 /*This stylesheet was created by Leander Kafemann in May/2024*/
 html {
     font-family: Verdana, sans-serif;
+    text-align: center;
 }
 
 body {
-    background-color: #44ffff;
+    background-color: ghostwhite;
 }
 
 h1 {

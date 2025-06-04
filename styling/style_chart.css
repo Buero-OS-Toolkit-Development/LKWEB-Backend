@@ -1,0 +1,68 @@
+.bar {
+	stroke: var(--black);
+	stroke-width: 1;
+	transition: fill .3s ease;
+	cursor: pointer;
+}
+
+.bar > text {
+	font-family: Verdana, sans-serif;
+	font-size: 24px;
+}
+
+.red {
+	fill: var(--red);
+}
+
+.orange {
+	fill: var(--orange);
+}
+
+.yellow {
+	fill: var(--yellow);
+}
+
+.green {
+	fill: var(--green);
+}
+
+.blue {
+	fill: var(--blue);
+}
+
+.purple {
+	fill: var(--purple);
+}
+
+.bar:hover,
+.bar:focus {
+	fill: var(--bgcolor);
+}
+
+.bar:hover text,
+.bar:focus text {
+	stroke: var(--accent);
+	stroke: #c32e04;
+	fill: black;
+}
+
+svg {
+	height: 405px;
+	width: 4200px;
+	border: thin solid;
+	border-radius: 8px;
+	--bgcolor: #e6f2f7;
+	--blue: #337599;
+	--yellow: #dfac20;
+	--orange: #df6c20;
+	--green: #8db243;
+	--red: #c82f04;
+	--purple: #8c4bb4;
+	--black: #113;
+}
+p.footerP {
+    font-size: 4px;
+}
+p.footerP:hover {
+    font-size: 10px;
+}

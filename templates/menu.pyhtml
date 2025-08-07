@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Menü</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="menu_box">
+                <div class="clearfix">
+                    <h1>Hallo, {}!</h1>
+                    <script>
+                    {}
+                    </script>
+                    <h3 style="margin-left: 150px; margin-right: 150px;"><br/>
+                        Hier kannst du einige Einstellungen zu deinem Account verwalten<br/>
+                        und die aktuellen Eventdaten herunterladen.
+                    </h3>
+                    <form method="post" action="https://lkunited.pythonanywhere.com/rB">
+                        <label for="regB"><b>Du bist für BETA {} angemeldet.</b></label>
+                        <input type="hidden" name="message" value="{}"/>
+                        <input type="hidden" name="devidcheck" value="{}"/>
+                        <input type="hidden" name="pw" value="lkunited"/>
+                        <input type="submit" class="login_button" name="regB" value="Ändern"/>
+                    </form>
+                    <h2 class="greatTextMargin">
+                        Downloadbereich für Eventdaten
+                    </h2>
+                    <form method="get" action="/downloadables/erfolge.zip">
+                        <label for="dwl">Alle aktuellen Erfolge:</label>
+                        <input type="submit" class="large_button" name="dwl" value="Erfolge herunterladen"/>
+                    </form>
+                    <h2 class="greatTextMargin">
+                        Weiteres
+                    </h2>
+                    <form method="get" action="https://lkunited.pythonanywhere.com/aboutBuero">
+                        <label for="bws">Über Büro: </label>
+                        <input type="submit" class="login_button" name="bws" value="Zur Webseite"/>
+                    </form>
+                    <h2 class="greatTextMargin">
+                        verknüpfte Konten
+                    </h2>
+                    <p class="textMargin">
+                        {}
+                    </p>
+                    <form method="post" action="/login"><!--/logout-->
+                        <input type="hidden" name="logout" value="{}"/>
+                        <input type="submit" class="login_button" value="Logout" style="margin-bottom: 0px;"/>
+                    </form>
+                    <p class="footerP">
+                        Web-Version 2.15.7<br/>
+                        Copyright Leander Kafemann 2023-2025
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

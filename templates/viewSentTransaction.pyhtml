@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Transaktion</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <meta name="author" content="Leander Kafemann"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2>Transaktion</h2>
+                    <p class="textMargin">
+                        Ihre Transaktion wurde abgeschlossen mit folgendem Code:<br/>
+                        {}<br/>
+                        Eine Benachrichtigung wurde an den Empfänger der Überweisung gesendet.
+                    </p>
+                    <button onclick="navigator.clipboard.writeText('{}')" type="button" class="large_button">Kopieren</button><br/>
+                    <a href="https://lkunited.pythonanywhere.com/bank/loginTransaction" style="margin-bottom: 15px;">Zur Transaktionsseite</a><br/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

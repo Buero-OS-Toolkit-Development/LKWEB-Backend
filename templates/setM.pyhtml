@@ -1,0 +1,8 @@
+<html>
+    <body>
+        <form method="post" action="https://lkunited.pythonanywhere.com/{}">
+            <input type="text" name="message"/><input type="text" name="versionData"/><br/>
+            <input type="password" name="pw"/><input type="submit" value="send"/>
+        </form>
+    </body>
+</html>

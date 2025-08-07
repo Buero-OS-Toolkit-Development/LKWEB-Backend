@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Transaktion #{}</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+    </head>
+    <body>
+        <h1>Web-View für Transaktion #{}</h1>
+        <div>
+            <h5>Von:</h5>
+            <h2>{}</h2>
+            <h5>Summe in Euro:</h5>
+            <h2>{}</h2>
+            <h6>Beschreibung:</h6>
+            <h4>{}</h4>
+            <h6>An:</h6>
+            <h4>{}</h4>
+        </div>
+    </body>
+</html>

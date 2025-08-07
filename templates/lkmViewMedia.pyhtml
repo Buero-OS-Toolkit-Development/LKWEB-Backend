@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>{} on LKM</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <meta name="author" content="Leander Kafemann"/>
+    </head>
+    <body>
+        <div class="centerer" style="display: block;">
+            <h3>LK Media</h3>
+            <p style="text-align: center;">presents</p>
+            <h1>{}</h1>
+            <p style="text-align: center;">Beschreibung:<br/>{}</p>
+            <video width="1280" height="720" controls>
+                <source src="{}" type="video/mp4">
+            </video>
+            <p style="text-align: center;">--Views: {}--</p>
+        </div>
+    </body>
+</html>

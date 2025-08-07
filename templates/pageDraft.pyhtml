@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>{}</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2 style="margin: 50px;">{}</h2>
+                    <div style="margin-left: 50px; margin-right: 50px;">{}</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <meta name="author" content="Leander Kafemann"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <p class="textMargin">
+                        Ihr Code lautet:
+                    </p>
+                    <button onclick="navigator.clipboard.writeText('{}').then(() => window.open('https://lkunited.pythonanywhere.com/login')).then(() => window.close())"
+                     type="button" class="large_button" style="height: 60px;">
+                        <h2 class="greatTextMargin">{}</h2>
+                    </button><!--Noch verbessern-->
+                    <p class="textMargin" style="font-size: 8px; margin-left: 80px; margin-right: 80px;">
+                        Klicken, um den Code in die Zwischenablage zu kopieren und<br/>
+                        zum Login weitergeleitet zu werden.<br/><br/>
+                        Alternativ:<br/>
+                        <a href="https://lkunited.pythonanywhere.com/login">Manuell zum Login</a><br/>
+                    </p>
+                    <!--<button onclick="window.close()" type="button" class="login_button">Fenster schlieﬂen</button>-->
+                    <!--Funktioniert noch nicht-->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

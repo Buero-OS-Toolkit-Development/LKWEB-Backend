@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <meta name="author" content="Leander Kafemann"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2 class="greatTextMargin">Büro-Bestätigungscode-Generator</h2>
+                    <h3 class="textMargin">
+                        Sie müssen einige Daten zur Bestätigung Ihrer Identität angeben.<br/>
+                        Hinweis: Büro kann Codes automatisch generieren.
+                    </h3>
+                    <form method="post" action="https://lkunited.pythonanywhere.com/loginCode">
+                        <input type="text" name="username" placeholder="Nutzername"/><br/>
+                        <input type="text" name="id" placeholder="Teilnahme an BETA (True/False)"/><br/>
+                        <input type="text" name="devid" placeholder="DeviceID Ihrer Installation"/><br/>
+                        <input type="password" name="password" placeholder="Passwort"/><br/>
+                        <input type="submit" class="login_button" value="Code Generieren"/>
+                    </form>
+                    <a href="https://lkunited.pythonanywhere.com/login">Zurück zum Login</a><br/><br/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

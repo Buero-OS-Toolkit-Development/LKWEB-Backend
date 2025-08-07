@@ -12,14 +12,13 @@
                 <div class="clearfix">
                     <h2>Login</h2>
                     <form method="post" action="https://lkunited.pythonanywhere.com/{}">
+                        <label for="name" style="color:red;" class="textMargin">Falsche Logindaten eingegeben ({}. Mal)</label>
                         <input type="text" name="name" placeholder="Nutzername"/><br/>
                         <input type="password" name="code" placeholder="Bestätigungscode"/><br/>
                         <label for="code"><a href="https://lkunited.pythonanywhere.com/aboutCodes">Über Büro-Bestätigungscodes</a></label><br/>
-                        <input type="hidden" name="counter" value="0"/>
-                        <input type="submit" class="login_button" name="submit" value="Einloggen"/><br/>
-                        <label for="submit" id="subcontent">{}</label><br/>
+                        <input type="hidden" name="counter" value="{}"/>
+                        <input type="submit" class="login_button" value="Einloggen"/>
                     </form>
-                    <script>{}</script>
                 </div>
             </div>
         </div>

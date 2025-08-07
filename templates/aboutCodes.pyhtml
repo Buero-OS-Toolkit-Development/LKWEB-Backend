@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <meta name="author" content="Leander Kafemann"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2>Büro-Bestätigungscodes</h2>
+                    <p class="textMargin">
+                        Büro-Bestätigungscodes werden von unserem Server ermittelt<br/>
+                        und können im Account-Bereich von Ihrer Büro-Installation abgerufen werden.<br/>
+                        Sie stellen sicher, dass nur Sie auf Ihr Konto zugreifen können.<br/>
+                        Die Sicherheit dieser Codes basiert auf Ihrer DevideID,<br/>
+                        die Ihr Gerät einmalig hat und die regelmäßig geändert wird.<br/>
+                        Sie erfahren sie im Account-Bereich.<br/><br/>
+                        <a href="https://lkunited.pythonanywhere.com/login">Zurück zum Login</a><br/>
+                        <a href="https://lkunited.pythonanywhere.com/generateCode">Code online generieren</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

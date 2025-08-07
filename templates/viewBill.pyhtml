@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>LK-Rechnung #{}</title>
+        <meta http-equiv="refresh" content="{}">
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+    </head>
+    <body>
+        <h1>Web-View für Rechnung #{}</h1>
+        <div>
+            <h5>Arbeitszeit in h:</h5>
+            <h2>{}</h2>
+            <h5>zu zahlen in Euro:</h5>
+            <h2>{}</h2>
+            <h5>Status:</h5>
+            <h4>{}</h4>
+            <h6>Stundenlohn in Euro:</h6>
+            <h4>{}</h4>
+            <h6>aktualisiert alle:</h6>
+            <h5>{} Sekunden</h5>
+        </div>
+    </body>
+</html>

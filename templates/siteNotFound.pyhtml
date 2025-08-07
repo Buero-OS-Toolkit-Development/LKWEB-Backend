@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Site not found</title>
+        <meta name="author" content="Leander Kafemann"/>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css" />
+        <meta name="google-site-verification" content="zqDcyobfHq3P3PPPeEjyf6csvrZUrfPPG-HG0_iki-A" />
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h1 class="textMargin">Site not found.</h1>
+                    <p class="textMargin" style="font-size: 16px;">
+                        Check out one of the following sites instead:<br/><br/>
+                        <a href="https://lkunited.pythonanywhere.com/quiz">Quiz</a><br/>
+                        <a href="https://lkunited.pythonanywhere.com/highscores">Highscores</a><br/><br/>
+                        <a href="https://lkunited.pythonanywhere.com/login">Login</a><br/>
+                        <a href="https://lkunited.pythonanywhere.com/aboutCodes">Über Codes</a><br/>
+                        <a href="https://lkunited.pythonanywhere.com/generateCode">Code generieren</a><br/><br/>
+                        <a href="https://lkunited.pythonanywhere.com/aboutBuero">Über Büro</a><br/><br/>
+                        <a href="https://leanderkafemann.github.io/UnitedByFootballCharts/">United By Football Charts</a><br/><br/>
+                        <a href="https://lkunited.pythonanywhere.com/bank/loginTransaction">Transaktions Web-View</a>
+                    </p>
+                    <p style="font-size: 4px;">
+                        Copyright Leander Kafemann 2024-2025
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

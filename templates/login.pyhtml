@@ -13,8 +13,8 @@
                     <h2>Login</h2>
                     <form method="post" action="https://lkunited.pythonanywhere.com/{}">
                         <input type="text" name="name" placeholder="Nutzername"/><br/>
-                        <input type="password" name="code" placeholder="Bestätigungscode"/><br/>
-                        <label for="code"><a href="https://lkunited.pythonanywhere.com/aboutCodes">Über Büro-Bestätigungscodes</a></label><br/>
+                        <input type="password" name="code" placeholder="BestÃ¤tigungscode"/><br/>
+                        <label for="code"><a href="https://lkunited.pythonanywhere.com/aboutCodes">Ãœber BÃ¼ro-BestÃ¤tigungscodes</a></label><br/>
                         <input type="hidden" name="counter" value="0"/>
                         <input type="submit" class="login_button" name="submit" value="Einloggen"/><br/>
                         <label for="submit" id="subcontent">{}</label><br/>

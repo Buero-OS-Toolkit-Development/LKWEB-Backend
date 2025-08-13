@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
     </head>
     <body>
-        <h1>Web-View für Transaktion #{}</h1>
+        <h1>Web-View fÃ¼r Transaktion #{}</h1>
         <div>
             <h5>Von:</h5>
             <h2>{}</h2>

@@ -10,15 +10,15 @@
         <div class="centerer">
             <div class="login_box">
                 <div class="clearfix">
-                    <h2>B�ro-Best�tigungscodes</h2>
+                    <h2>BÃ¼ro-BestÃ¤tigungscodes</h2>
                     <p class="textMargin">
-                        B�ro-Best�tigungscodes werden von unserem Server ermittelt<br/>
-                        und k�nnen im Account-Bereich von Ihrer B�ro-Installation abgerufen werden.<br/>
-                        Sie stellen sicher, dass nur Sie auf Ihr Konto zugreifen k�nnen.<br/>
+                        BÃ¼ro-BestÃ¤tigungscodes werden von unserem Server ermittelt<br/>
+                        und kÃ¶nnen im Account-Bereich von Ihrer BÃ¼ro-Installation abgerufen werden.<br/>
+                        Sie stellen sicher, dass nur Sie auf Ihr Konto zugreifen kÃ¶nnen.<br/>
                         Die Sicherheit dieser Codes basiert auf Ihrer DevideID,<br/>
-                        die Ihr Ger�t einmalig hat und die regelm��ig ge�ndert wird.<br/>
+                        die Ihr GerÃ¤t einmalig hat und die regelmÃ¤ÃŸig geÃ¤ndert wird.<br/>
                         Sie erfahren sie im Account-Bereich.<br/><br/>
-                        <a href="https://lkunited.pythonanywhere.com/login">Zur�ck zum Login</a><br/>
+                        <a href="https://lkunited.pythonanywhere.com/login">ZurÃ¼ck zum Login</a><br/>
                         <a href="https://lkunited.pythonanywhere.com/generateCode">Code online generieren</a>
                     </p>
                 </div>

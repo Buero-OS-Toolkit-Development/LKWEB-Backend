@@ -13,7 +13,7 @@
                     <p class="textMargin">
                         Ihre Transaktion wurde abgeschlossen mit folgendem Code:<br/>
                         {}<br/>
-                        Eine Benachrichtigung wurde an den Empf‰nger der ‹berweisung gesendet.
+                        Eine Benachrichtigung wurde an den Empf√§nger der √úberweisung gesendet.
                     </p>
                     <button onclick="navigator.clipboard.writeText('{}')" type="button" class="large_button">Kopieren</button><br/>
                     <a href="https://lkunited.pythonanywhere.com/bank/loginTransaction" style="margin-bottom: 15px;">Zur Transaktionsseite</a><br/>

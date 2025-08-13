@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Menü</title>
+        <title>MenÃ¼</title>
         <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
         <link rel="manifest" href="/pwa/manifest.json"/>
         <link rel="icon" href="/pwa/iconPython.png"/>
@@ -20,14 +20,14 @@
                         und die aktuellen Eventdaten herunterladen.
                     </h3>
                     <form method="post" action="https://lkunited.pythonanywhere.com/rB">
-                        <label for="regB"><b>Du bist für BETA {} angemeldet.</b></label>
+                        <label for="regB"><b>Du bist fÃ¼r BETA {} angemeldet.</b></label>
                         <input type="hidden" name="message" value="{}"/>
                         <input type="hidden" name="devidcheck" value="{}"/>
                         <input type="hidden" name="pw" value="lkunited"/>
-                        <input type="submit" class="login_button" name="regB" value="Ändern"/>
+                        <input type="submit" class="login_button" name="regB" value="Ã„ndern"/>
                     </form>
                     <h2 class="greatTextMargin">
-                        Downloadbereich für Eventdaten
+                        Downloadbereich fÃ¼r Eventdaten
                     </h2>
                     <form method="get" action="/downloadables/erfolge.zip">
                         <label for="dwl">Alle aktuellen Erfolge:</label>
@@ -37,11 +37,11 @@
                         Weiteres
                     </h2>
                     <form method="get" action="https://lkunited.pythonanywhere.com/aboutBuero">
-                        <label for="bws">Über Büro: </label>
+                        <label for="bws">Ãœber BÃ¼ro: </label>
                         <input type="submit" class="login_button" name="bws" value="Zur Webseite"/>
                     </form>
                     <h2 class="greatTextMargin">
-                        verknüpfte Konten
+                        verknÃ¼pfte Konten
                     </h2>
                     <p class="textMargin">
                         {}

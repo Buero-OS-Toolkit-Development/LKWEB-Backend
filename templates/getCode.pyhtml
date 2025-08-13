@@ -23,7 +23,7 @@
                         Alternativ:<br/>
                         <a href="https://lkunited.pythonanywhere.com/login">Manuell zum Login</a><br/>
                     </p>
-                    <!--<button onclick="window.close()" type="button" class="login_button">Fenster schlieﬂen</button>-->
+                    <!--<button onclick="window.close()" type="button" class="login_button">Fenster schlie√üen</button>-->
                     <!--Funktioniert noch nicht-->
                 </div>
             </div>

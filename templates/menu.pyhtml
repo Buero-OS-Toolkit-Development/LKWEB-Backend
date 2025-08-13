@@ -51,7 +51,7 @@
                         <input type="submit" class="login_button" value="Logout" style="margin-bottom: 0px;"/>
                     </form>
                     <p class="footerP">
-                        Web-Version 2.15.7<br/>
+                        Web-Version <{{evalPyHTML-eval: __version__ :eval-}}><br/>
                         Copyright Leander Kafemann 2023-2025
                     </p>
                 </div>

@@ -1,0 +1,17 @@
+{
+  "lang": "de-de",
+  "name": "LK 5.0",
+  "short_name": "LK5",
+  "description": "5. Geburtstagsfeier des LK",
+  "orientation": "portrait-primary",
+  "start_url": "https://lkunited.pythonanywhere.com/viewGameSurvey",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://buero-os-toolkit-development.github.io/LKWEB-Backend/images/logo_GameSurvey.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
+  

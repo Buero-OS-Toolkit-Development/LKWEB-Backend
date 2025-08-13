@@ -1,0 +1,8 @@
+body {
+    background-color: ghostwhite;
+    background-image: url('../images/gameSurveyBackground.png');
+    background-size: cover; /* Bild füllt den gesamten Bereich */
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.4;
+}

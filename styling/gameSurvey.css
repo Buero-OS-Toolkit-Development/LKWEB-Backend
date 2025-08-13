@@ -7,7 +7,7 @@ body {
     /* opacity entfernt */
 }
 
-.centerer {
+.backgroundOverlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -16,6 +16,10 @@ body {
     background: rgba(255,255,255,0.6); /* Helle, halbtransparente Schicht */
     z-index: 0;
     pointer-events: none; /* Overlay ist nicht klickbar */
+}
+
+.login_box {
+    pointer-events: all; /* Login-Box ist klickbar */
 }
 
 body > *:not(.backgroundOverlay) {

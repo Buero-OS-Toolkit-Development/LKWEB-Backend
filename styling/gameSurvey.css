@@ -1,8 +1,24 @@
 body {
     background-color: ghostwhite;
     background-image: url('../images/gameSurveyBackground.png');
-    background-size: cover; /* Bild füllt den gesamten Bereich */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: 0.4;
+    /* opacity entfernt */
+}
+
+.centerer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,0.6); /* Helle, halbtransparente Schicht */
+    z-index: 0;
+    pointer-events: none; /* Overlay ist nicht klickbar */
+}
+
+body > *:not(.backgroundOverlay) {
+    position: relative;
+    z-index: 1;
 }

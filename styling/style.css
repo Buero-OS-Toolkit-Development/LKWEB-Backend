@@ -8,19 +8,7 @@ body {
     background-color: ghostwhite;
 }
 
-h1 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-div {
+h1, h2, h3, div {
     text-align: center;
 }
 
@@ -55,6 +43,8 @@ input[type=text], input[type=password] {
     margin-bottom: 3px;
     height: 30px;
     text-align: center;
+    opacity: 0.6;
+    box-shadow: 0 2px 4px #bbb;
 }
 
     input[type=text]:focus, input[type=password]:focus {
@@ -62,6 +52,8 @@ input[type=text], input[type=password] {
         margin-left: 5px;
         margin-right: 5px;
         width: 310px;
+        opacity: 0.8;
+        box-shadow: 0 3px 6px #bbb;
     }
 
 input::placeholder {
@@ -80,9 +72,14 @@ input::placeholder {
     transition: 0.5s;
     -webkit-transition: 0.5s;
     font-family: Verdana, sans-serif;
+    opacity: 0.5;
+    box-shadow: 0 2px 2px #bbb;
 }
 
     .login_button:hover {
+        box-shadow: 0 2px 4px #bbb;
+        background-color: silver;
+        opacity: 0.8;
         width: 200px;
         border: 2px solid black;
     }
@@ -98,9 +95,14 @@ input::placeholder {
     transition: 0.7s;
     -webkit-transition: 0.7s;
     font-family: Verdana, sans-serif;
+    opacity: 0.5;
+    box-shadow: 0 2px 2px #bbb;
 }
 
     .large_button:hover {
+        box-shadow: 0 2px 4px #bbb;
+        background-color: silver;
+        opacity: 0.8;
         width: 300px;
         border: 2px solid black;
     }
@@ -109,7 +111,12 @@ input::placeholder {
     margin: auto;
     border: 2px solid black;
     border-radius: 12px;
+    box-shadow: 0 2px 4px #bbb;
 }
+
+    .login_box:hover {
+        box-shadow: 0 4px 8px #bbb;
+    }
 
 .centerer {
     display: flex;

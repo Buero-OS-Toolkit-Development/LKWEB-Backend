@@ -11,7 +11,6 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .backgroundOverlay {
@@ -29,9 +28,6 @@ body {
     margin-top: 50px;
     pointer-events: all; /* Login-Box ist klickbar */
     z-index: 2; /* Login-Box überlagert die Hintergrund-Overlay */
-    height: 100vh;
-    overflow-y: auto;
-    padding-bottom: 40px;
 }
 
 body > *:not(.backgroundOverlay) {

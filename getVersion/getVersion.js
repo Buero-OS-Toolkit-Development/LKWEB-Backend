@@ -4,4 +4,7 @@ async function getVersionLKWEB() {
     return versionText;
 }
 
-// document.getElementById("LKWEBversionText").innerText = await getVersionLKWEB();
+async function getVersionLKWEBAgent() {
+    document.getElementById("LKWEBversionText").innerText = await getVersionLKWEB();
+    console.log("LKWEB version fetched successfully.");
+}

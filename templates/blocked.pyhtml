@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Fehler</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2>Fehler</h2>
+                    <p style="color: red;" class="textMargin">
+                        Diese Seite ist fuer Sie  gesperrt,<br/>
+                        da Ihre IP-Adresse für die angefragte Resource nicht zugelassen ist.<br/><br/>
+                        Wenden Sie sich an den Administrator, um Zugriff zu erhalten.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

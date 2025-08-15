@@ -4,4 +4,4 @@ async function getVersionLKWEB() {
     return versionText;
 }
 
-document.getElementById("LKWEBversionText").innerText = await getVersionLKWEB();
+// document.getElementById("LKWEBversionText").innerText = await getVersionLKWEB();

@@ -25,7 +25,9 @@ body {
 }
 
 .login_box {
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     pointer-events: all; /* Login-Box ist klickbar */
     z-index: 2; /* Login-Box überlagert die Hintergrund-Overlay */
 }

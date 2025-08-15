@@ -9,7 +9,6 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
-    /* opacity entfernt */
 }
 
 .backgroundOverlay {
@@ -18,7 +17,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(255,255,255,0.6); /* Helle, halbtransparente Schicht */
+    background: rgba(255,255,255,0.6);
     z-index: 0;
     pointer-events: none; /* Overlay ist nicht klickbar */
 }
@@ -31,4 +30,9 @@ body {
 body > *:not(.backgroundOverlay) {
     position: relative;
     z-index: 1;
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
 }

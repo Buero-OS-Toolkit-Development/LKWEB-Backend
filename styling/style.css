@@ -116,11 +116,11 @@ input::placeholder {
     border-radius: 12px;
     box-shadow: 0 2px 4px #bbb;
     transition-duration: 0.3s;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
 }
 
     .login_box:hover {
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(9px);
         box-shadow: 0 4px 8px #bbb;
     }
 

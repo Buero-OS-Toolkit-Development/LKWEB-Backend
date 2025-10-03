@@ -17,7 +17,7 @@
                     </h3>
                     <form method="post" action="https://lkunited.pythonanywhere.com/loginCode">
                         <input type="text" name="username" placeholder="Nutzername"/><br/>
-                        <input type="text" name="id" placeholder="Teilnahme an BETA (True/False)"/><br/>
+                        <input type="hidden" name="id" value="bla"/>
                         <input type="text" name="devid" placeholder="DeviceID Ihrer Installation"/><br/>
                         <input type="password" name="password" placeholder="Passwort"/><br/>
                         <input type="submit" class="login_button" value="Code Generieren"/>

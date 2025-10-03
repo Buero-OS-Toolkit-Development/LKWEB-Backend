@@ -19,13 +19,6 @@
                         Hier kannst du einige Einstellungen zu deinem Account verwalten<br/>
                         und die aktuellen Eventdaten herunterladen.
                     </h3>
-                    <form method="post" action="https://lkunited.pythonanywhere.com/rB">
-                        <label for="regB"><b>Du bist für BETA {} angemeldet.</b></label>
-                        <input type="hidden" name="message" value="{}"/>
-                        <input type="hidden" name="devidcheck" value="{}"/>
-                        <input type="hidden" name="pw" value="lkunited"/>
-                        <input type="submit" class="login_button" name="regB" value="Ändern"/>
-                    </form>
                     <h2 class="greatTextMargin">
                         Downloadbereich für Eventdaten
                     </h2>

@@ -3,7 +3,7 @@
         <title>Weiterleitung...</title>
         <link rel="manifest" href="/pwa/manifest.json"/>
         <meta http-equiv="refresh" content="0.5;{}">
-        <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/cookies.js"></script>
+        <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/js/cookies.js"></script>
     </head>
     <body>
         <script>

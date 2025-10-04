@@ -2,11 +2,32 @@ h2 {
   margin: 50px;
 }
 
-div {
+div, h3 {
   margin-left: 50px;
   margin-right: 50px;
 }
 
 button.rmButton {
-  width: 30px;
-} /*tbh*/
+    width: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3px;
+    opacity: 0.5;
+    box-shadow: 0 2px 2px #bbb;
+    backdrop-filter: blur(2px);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 4px;
+    color: black;
+}
+
+    button.rmButton:hover {
+        box-shadow: 0 2px 4px #bbb;
+        background-color: silver;
+        opacity: 0.8;
+        width: 50px;
+        border: 2px solid black;
+    }

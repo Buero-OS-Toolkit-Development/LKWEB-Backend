@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Weiterleitung...</title>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <meta http-equiv="refresh" content="0.5;{}">
+    </head>
+    <body>
+        Sie werden weitergeleitet...<br/>
+        Einen Moment bitte...<br/><br/>
+        Einige Informationen über Ihr Gerät werden abgerufen...
+    </body>
+</html>

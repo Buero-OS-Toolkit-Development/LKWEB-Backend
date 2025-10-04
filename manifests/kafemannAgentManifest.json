@@ -1,0 +1,17 @@
+{
+  "lang": "de-de",
+  "name": "Kafemann Agent",
+  "short_name": "Kafemann",
+  "description": "exklusive Funktionen für Kafemann's'",
+  "orientation": "portrait-primary",
+  "start_url": "https://lkunited.pythonanywhere.com/private/viewGames",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://buero-os-toolkit-development.github.io/LKWEB-Backend/images/logo_lk.ico",
+      "type": "image/ico",
+      "sizes": "512x512"
+    }
+  ]
+}
+  

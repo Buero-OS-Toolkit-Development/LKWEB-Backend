@@ -8,3 +8,9 @@
 
 *.svg linguist-language=SVG
 *.svg linguist-detectable=true
+
+*.json linguist-language=JSON
+*.json linguist-detectable=true
+
+*.txt linguist-language=Text
+*.txt linguist-detectable=true

@@ -7,6 +7,11 @@ div, h3 {
   margin-right: 50px;
 }
 
+h3, h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 button.rmButton {
     width: 30px;
     margin-left: 5px;
@@ -19,7 +24,7 @@ button.rmButton {
     transition: 0.5s;
     -webkit-transition: 0.5s;
     background-color: white;
-    border: 1px solid silver;
+    border: 2px solid silver;
     border-radius: 4px;
     color: black;
 }

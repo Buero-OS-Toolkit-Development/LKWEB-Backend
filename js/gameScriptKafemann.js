@@ -1,6 +1,6 @@
 function removeGame(game) {
   window.location.href = "https://lkunited.pythonanywhere.com/private/gameRemoving?game=" + game +\
-                           "&name=" + getCookie("nameGame") + "&password=" + getCookie("passwordGame");
+                         "&name=" + getCookie("nameGame") + "&password=" + getCookie("passwordGame");
 }
 
 function addGame() {

@@ -3,8 +3,12 @@
         <title>Weiterleitung...</title>
         <link rel="manifest" href="/pwa/manifest.json"/>
         <meta http-equiv="refresh" content="0.5;{}">
+        <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/cookies.js"></script>
     </head>
     <body>
+        <script>
+            {}
+        </script>
         Sie werden weitergeleitet...<br/>
         Einen Moment bitte...<br/><br/>
         Einige Informationen über Ihr Gerät werden abgerufen...

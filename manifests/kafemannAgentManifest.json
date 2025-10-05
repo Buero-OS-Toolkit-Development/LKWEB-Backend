@@ -8,8 +8,8 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "https://buero-os-toolkit-development.github.io/LKWEB-Backend/images/logo_lk.ico",
-      "type": "image/ico",
+      "src": "https://buero-os-toolkit-development.github.io/LKWEB-Backend/images/logo_lk.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ]

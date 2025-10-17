@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <meta name="author" content="Leander Kafemann"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2>Login</h2>
+                    <form method="post" action="https://lkunited.pythonanywhere.com/simplelogin/doRegister">
+                        <input type="text" name="name" placeholder="Nutzername"/><br/>
+                        <label for="name" id="subcontent">Der Nutzername darf nur aus Buchstaben und Zahlen bestehen.</label><br/>
+                        <input type="password" name="password" placeholder="Passwort"/><br/>
+                        <label for="password" id="subcontent">Das Passwort muss mindestens 6 Zeichen lang sein.</label><br/>
+                        <input type="submit" class="login_button" name="submit" value="Einloggen"/><br/>
+                        <label for="submit" id="subcontent">{}</label><br/>
+                    </form>
+                    <a href="https://lkunited.pythonanywhere.com/simplelogin/login">Einloggen</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

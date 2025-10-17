@@ -5,6 +5,8 @@
 *.pyhtml linguist-language=PyHTML
 *.pyhtml linguist-detectable=true
 *.pyhtml linguist-documentation=false
+*.pyhtml linguist-generated=false
+*.pyhtml linguist-vendored=false
 
 *.svg linguist-language=SVG
 *.svg linguist-detectable=true

@@ -12,7 +12,7 @@
                 <div class="clearfix">
                     <h2>Login</h2>
                     <form method="post" action="https://lkunited.pythonanywhere.com/simplelogin/doLogin">
-                        <input type="text" name="name" placeholder="Nutzername"/><br/>
+                        <input type="text" name="username" placeholder="Nutzername"/><br/>
                         <input type="password" name="password" placeholder="Passwort"/><br/>
                         <input type="submit" class="login_button" name="submit" value="Einloggen"/><br/>
                         <label for="submit" id="subcontent">{}</label><br/>

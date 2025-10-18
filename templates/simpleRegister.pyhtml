@@ -12,7 +12,7 @@
                 <div class="clearfix">
                     <h2>Login</h2>
                     <form method="post" action="https://lkunited.pythonanywhere.com/simplelogin/doRegister">
-                        <input type="text" name="name" placeholder="Nutzername"/><br/>
+                        <input type="text" name="username" placeholder="Nutzername"/><br/>
                         <label for="name" id="subcontent">Der Nutzername darf nur aus Buchstaben und Zahlen bestehen.</label><br/>
                         <input type="password" name="password" placeholder="Passwort"/><br/>
                         <label for="password" id="subcontent">Das Passwort muss mindestens 6 Zeichen lang sein.</label><br/>

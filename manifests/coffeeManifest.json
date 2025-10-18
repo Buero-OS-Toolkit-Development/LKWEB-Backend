@@ -1,0 +1,17 @@
+{
+  "lang": "de-de",
+  "name": "Kaffee Pass",
+  "short_name": "Kaffee",
+  "description": "Kaffee Pass für Maschine des LK",
+  "orientation": "portrait-primary",
+  "start_url": "https://lkunited.pythonanywhere.com/private/coffeePassLogin",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://buero-os-toolkit-development.github.io/LKWEB-Backend/images/coffee.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
+  

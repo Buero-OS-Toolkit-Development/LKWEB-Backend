@@ -1,0 +1,43 @@
+html {
+    font-family: Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+body {
+    background-color: ghostwhite;
+    background-image: url('../images/coffeeBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,0.6);
+    z-index: 0;
+    pointer-events: none; /* Overlay ist nicht klickbar */
+}
+
+.login_box {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    pointer-events: all; /* Login-Box ist klickbar */
+    z-index: 2; /* Login-Box überlagert die Hintergrund-Overlay */
+}
+
+body > *:not(.backgroundOverlay) {
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Spiele</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <link rel="icon" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/images/logo_lk.png"/>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2>AGB</h2>
+                    <div style="font-weight: bold;">
+                        <font color="red">
+                            Die angefragten AGB konnten nicht geladen werden.
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

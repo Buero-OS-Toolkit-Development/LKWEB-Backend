@@ -5,6 +5,7 @@ function checkCoffeePassCookie() {
     } else {
         alert("Keinen Kaffee-Pass Cookie gefunden.");
         setCookie("coffeePass", prompt("ID eingeben:"), 30);
+        window.location.reload();
     }
 }
 

@@ -1,9 +1,10 @@
 function checkCoffeePassCookie() {
     let passID = getCookie("coffeePass", document.cookie);
-    if (passID != null) {
+    if (passID != null && passID != "") {
         window.location.href = "https://lkunited.pythonanywhere.com/private/kaffeePass?id=" + passID;
     } else {
         alert("Keinen Kaffee-Pass Cookie gefunden.");
+        setCookie("coffeePass", prompt("ID eingeben:"), 30);
     }
 }
 

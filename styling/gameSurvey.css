@@ -28,8 +28,12 @@ body {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    width: 600px;
+    height: 400px;
+    overflow: auto;
     pointer-events: all; /* Login-Box ist klickbar */
     z-index: 2; /* Login-Box überlagert die Hintergrund-Overlay */
+    box-sizing: border-box;
 }
 
 body > *:not(.backgroundOverlay) {

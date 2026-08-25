@@ -7,9 +7,9 @@ body {
     position: relative;
     background-color: ghostwhite;
     background-image: url('../images/roman.png'), url('../images/gameSurveyBackground.png');
-    background-size: cover, cover;
+    background-size: clamp(220px, 78vw, 520px) auto, cover;
     background-repeat: no-repeat, no-repeat;
-    background-position: center center, center center;
+    background-position: center top, center center;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -47,4 +47,19 @@ body > *:not(.backgroundOverlay) {
 p {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: clamp(180px, 85vw, 420px) auto, cover;
+        background-position: center top, center center;
+    }
+
+    .login_box {
+        width: calc(100vw - 32px);
+        height: auto;
+        max-height: calc(100vh - 120px);
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }

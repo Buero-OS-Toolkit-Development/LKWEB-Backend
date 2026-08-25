@@ -15,22 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-    body::before {
-        content: "";
-        position: fixed;
-        top: 50px;
-        left: 50%;
-        width: 540px;
-        height: 330px;
-        transform: translateX(-50%);
-        background-image: url('../images/roman.png');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: contain;
-        z-index: 1;
-        pointer-events: none;
-    }
-
 .backgroundOverlay {
     position: fixed;
     top: 0;
@@ -39,7 +23,7 @@ body {
     height: 100vh;
     background: rgba(255,255,255,0.6);
     z-index: 0;
-    pointer-events: none; /* Overlay ist nicht klickbar */
+    pointer-events: none;
 }
 
 .login_box {
@@ -47,17 +31,34 @@ body {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    width: 540px;
-    height: 330px;
+    width: 700px;
+    height: 430px;
     overflow: auto;
     box-sizing: border-box;
-    pointer-events: all; /* Login-Box ist klickbar */
-    z-index: 3; /* Login-Box überlagert Bild und Hintergrund-Overlay */
+    pointer-events: all;
+    z-index: 2;
 }
+
+    .login_box::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url('../images/roman.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        z-index: 3;
+        pointer-events: none;
+    }
+
+    .login_box > * {
+        position: relative;
+        z-index: 2;
+    }
 
 body > *:not(.backgroundOverlay) {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 p {

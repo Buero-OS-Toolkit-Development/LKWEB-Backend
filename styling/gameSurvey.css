@@ -37,23 +37,26 @@ body {
     box-sizing: border-box;
     pointer-events: all;
     z-index: 2;
+    isolation: isolate;
 }
 
     .login_box::before {
         content: "";
         position: absolute;
         inset: 0;
+        background-color: transparent;
         background-image: url('../images/roman.png');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: contain;
+        mix-blend-mode: multiply;
         z-index: 3;
         pointer-events: none;
     }
 
     .login_box > * {
         position: relative;
-        z-index: 2;
+        z-index: 4;
     }
 
 body > *:not(.backgroundOverlay) {

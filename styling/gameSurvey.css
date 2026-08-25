@@ -7,7 +7,7 @@ body {
     position: relative;
     background-color: ghostwhite;
     background-image: url('../images/roman.png'), url('../images/gameSurveyBackground.png');
-    background-size: clamp(220px, 78vw, 520px) auto, cover;
+    background-size: clamp(320px, 92vw, 720px) auto, cover;
     background-repeat: no-repeat, no-repeat;
     background-position: center top, center center;
     margin: 0;
@@ -51,7 +51,7 @@ p {
 
 @media (max-width: 768px) {
     body {
-        background-size: clamp(180px, 85vw, 420px) auto, cover;
+        background-size: clamp(260px, 94vw, 520px) auto, cover;
         background-position: center top, center center;
     }
 

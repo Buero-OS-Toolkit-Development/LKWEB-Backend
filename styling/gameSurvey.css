@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    position: relative;
     background-color: ghostwhite;
     background-image: url('../images/gameSurveyBackground.png');
     background-size: cover;
@@ -11,7 +12,24 @@ body {
     background-position: center center;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 50px;
+        left: 50%;
+        width: 540px;
+        height: 330px;
+        transform: translateX(-50%);
+        background-image: url('../images/roman.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        z-index: 1;
+        pointer-events: none;
+    }
 
 .backgroundOverlay {
     position: fixed;
@@ -25,20 +43,21 @@ body {
 }
 
 .login_box {
+    position: relative;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    width: 600px;
-    height: 400px;
+    width: 540px;
+    height: 330px;
     overflow: auto;
-    pointer-events: all; /* Login-Box ist klickbar */
-    z-index: 2; /* Login-Box überlagert die Hintergrund-Overlay */
     box-sizing: border-box;
+    pointer-events: all; /* Login-Box ist klickbar */
+    z-index: 3; /* Login-Box überlagert Bild und Hintergrund-Overlay */
 }
 
 body > *:not(.backgroundOverlay) {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 p {

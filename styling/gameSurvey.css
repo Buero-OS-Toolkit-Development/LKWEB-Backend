@@ -63,3 +63,18 @@ p {
         margin-right: 16px;
     }
 }
+
+/* Der Zustand, wenn das Element geschlossen ist */
+details::details-content {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    /* Animiert die Höhe und die Sichtbarkeit über 0.5 Sekunden */
+    transition: height 0.5s ease, opacity 0.5s ease, content-visibility 0.5s allow-discrete;
+}
+
+/* Der Zustand, wenn das Element geöffnet ist (durch das [open] Attribut) */
+details[open]::details-content {
+    height: auto;
+    opacity: 1;
+}

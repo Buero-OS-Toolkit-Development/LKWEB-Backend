@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Bank</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/js/cookies.txt"></script>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2 style="margin: 50px;">Bank</h2>
+                    <div style="margin-left: 50px; margin-right: 50px;">
+                        <p>
+                            Welcome to your bank account.<br/>
+                            You have <b>{}</b> € available.
+                        </p>
+                    </div>
+                    <script>
+                        setCookie("sessionid", "{}", 7);
+                    </script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

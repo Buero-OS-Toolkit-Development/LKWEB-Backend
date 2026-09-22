@@ -2,7 +2,7 @@
 static resources and data for LKWEB (server scripts for Buero)
 WARNING: Buero is deprecated.
 <br/>
-Letztes Update f&uuml;r: LKWEB <b>v3.1.0</b>
+Letztes Update f&uuml;r: LKWEB <b>v3.1.2</b>
 
 ## Credits
 - Code by Leander Kafemann<br/>

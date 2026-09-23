@@ -2,7 +2,8 @@
 *.md linguist-detectable=true
 *.md linguist-documentation=false
 
-*.pyhtml linguist-language=PyHTML
+# *.pyhtml linguist-language=PyHTML
+*.pyhtml linguist-language=PHP
 *.pyhtml linguist-detectable=true
 *.pyhtml linguist-documentation=false
 *.pyhtml linguist-generated=false

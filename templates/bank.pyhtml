@@ -5,7 +5,7 @@
         <meta name="author" content="Leander Kafemann"/>
         <link rel="icon" href="/pwa/iconPython.png"/>
         <link rel="manifest" href="/pwa/manifest.json"/>
-        <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/js/cookies.txt"></script>
+        <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/js/cookies.js"></script>
     </head>
     <body>
         <div class="centerer">

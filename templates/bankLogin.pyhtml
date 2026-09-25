@@ -22,7 +22,7 @@
                         let sessionid = getCookie("sessionid", document.cookie);
                         if (sessionid != "") {
                             renewCookie("sessionid", 7);
-                            document.getElementByID("subcontent").text = "SessionID found";
+                            document.getElementById("subcontent").textContent = "SessionID found";
                             window.location.href = "https://lkunited.pythonanywhere.com/bank/loginSessionID?sessionid=" + sessionid;
                         }
                     </script>

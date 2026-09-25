@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/js/cookies.js"></script>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2>Login</h2>
+                    <form method="post" action="https://lkunited.pythonanywhere.com/bank/loginUser">
+                        <input type="text" name="name" placeholder="Name"/><br/>
+                        <input type="password" name="code" placeholder="Password"/><br/>
+                        <input type="submit" class="login_button" name="submit" value="Einloggen"/><br/>
+                        <label for="submit" id="subcontent">Login</label><br/>
+                    </form>
+                    <script>
+                        let sessionid = getCookie("sessionid");
+                        if (sessionid != "") {
+                            renewCookie("sessionid", 7);
+                            document.getElementByID("subcontent").text = "SessionID found";
+                            window.location.href = "https://lkunited.pythonanywhere.com/bank/loginSessionID?sessionid=" + sessionid;
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

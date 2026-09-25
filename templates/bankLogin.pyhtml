@@ -19,7 +19,7 @@
                         <label for="submit" id="subcontent">Login</label><br/>
                     </form>
                     <script>
-                        let sessionid = getCookie("sessionid");
+                        let sessionid = getCookie("sessionid", document.cookie);
                         if (sessionid != "") {
                             renewCookie("sessionid", 7);
                             document.getElementByID("subcontent").text = "SessionID found";

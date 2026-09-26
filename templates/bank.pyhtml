@@ -22,11 +22,7 @@
                     </div>
                     <script>
                         let sessionid = "{}";
-                        if (getCookie("sessionid", document.cookie) == "") {
-                            setCookie("sessionid", sessionid, 7);
-                        } else {
-                            renewCookie("sessionid", 7)
-                        }
+                        sessionIdCookie(sessionid);
                     </script>
                 </div>
             </div>

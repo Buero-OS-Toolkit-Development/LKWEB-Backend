@@ -6,6 +6,7 @@
         <link rel="icon" href="/pwa/iconPython.png"/>
         <link rel="manifest" href="/pwa/manifest.json"/>
         <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/js/cookies.js"></script>
+        <script src="https://buero-os-toolkit-development.github.io/LKWEB-Backend/js/bankMenu.js"></script>
     </head>
     <body>
         <div class="centerer">
@@ -17,9 +18,15 @@
                             Welcome to your bank account.<br/>
                             You have <b>{}</b> € available.
                         </p>
+                        <button class="login_button" onclick="logout();">Logout</button>
                     </div>
                     <script>
-                        setCookie("sessionid", "{}", 7);
+                        let sessionid = "{}";
+                        if (getCookie("sessionid", document.cookie) == "") {
+                            setCookie("sessionid", sessionid, 7);
+                        } else {
+                            renewCookie("sessionid", 7)
+                        }
                     </script>
                 </div>
             </div>

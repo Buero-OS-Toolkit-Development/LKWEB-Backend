@@ -12,7 +12,7 @@
             <div class="login_box">
                 <div class="clearfix">
                     <h2>Login</h2>
-                    <form method="post" action="https://lkunited.pythonanywhere.com/bank/loginUser">
+                    <form method="post" action="https://lkunited.pythonanywhere.com/bank/menu">
                         <input type="text" name="name" placeholder="Name"/><br/>
                         <input type="password" name="code" placeholder="Password"/><br/>
                         <input type="submit" class="login_button" name="submit" value="Einloggen"/><br/>
@@ -23,7 +23,7 @@
                         if (sessionid != "") {
                             renewCookie("sessionid", 7);
                             document.getElementById("subcontent").textContent = "SessionID found";
-                            window.location.href = "https://lkunited.pythonanywhere.com/bank/loginSessionID?sessionid=" + sessionid;
+                            window.location.href = "https://lkunited.pythonanywhere.com/bank/menu?sessionid=" + sessionid;
                         }
                     </script>
                 </div>

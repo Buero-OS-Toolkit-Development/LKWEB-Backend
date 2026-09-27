@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://buero-os-toolkit-development.github.io/LKWEB-Backend/styling/style.css"/>
+        <link rel="manifest" href="/pwa/manifest.json"/>
+        <link rel="icon" href="/pwa/iconPython.png"/>
+        <meta name="author" content="Leander Kafemann"/>
+        <script src="https://buero-os-toolkit-development.github.io/BueroWebKit/js/cookies.js"></script>
+    </head>
+    <body>
+        <div class="centerer">
+            <div class="login_box">
+                <div class="clearfix">
+                    <h2>Login failed</h2>
+                    <p>
+                        <font color="red">
+                            {}
+                        </font><br/>
+                        <a href="https://lkunited.pythonanywhere.com/bank/login">Try again</a>
+                    </p>
+                    <script>
+                        // remove sessionid cookie
+                        document.cookie = "";
+                    </script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

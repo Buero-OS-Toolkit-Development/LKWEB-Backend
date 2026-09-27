@@ -20,7 +20,7 @@
                     </p>
                     <script>
                         // remove sessionid cookie
-                        document.cookie = "";
+                        setCookie("sessionid", "REMOVE", 0);
                     </script>
                 </div>
             </div>

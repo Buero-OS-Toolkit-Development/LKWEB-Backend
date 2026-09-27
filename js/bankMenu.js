@@ -1,6 +1,6 @@
 function logout() {
     // logs out the user
-    let sessionid = getCookie("sessionid");
+    let sessionid = getCookie("sessionid", document.cookie);
     window.location.href = "https://lkunited.pythonanywhere.com/bank/logout?sessionid=" + sessionid;
 }
 
